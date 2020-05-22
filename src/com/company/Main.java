@@ -1,29 +1,22 @@
-package com.company;
+/**
+ * Main class uses to start the Application class
+ * @author Лыщев Иван З110
+ *
+ */
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
-import java.util.function.Supplier;
-import java.util.stream.Stream;
+
+package com.company;
+import com.company.Application.Application;
 
 public class Main {
 
     public static void main(String[] args) {
-       Application lab5;
         try {
-            lab5 = new Application(args[0]);
+            Application lab5 = new Application(args[0]);
+            lab5.start();
         } catch (ArrayIndexOutOfBoundsException e) {
-            lab5 = new Application();
+            System.out.println("укажите файл коллекции");
         }
-        lab5.start();
-
-
-
-
 
 
     }

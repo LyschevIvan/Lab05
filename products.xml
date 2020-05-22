@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <treeMapController>
+    <creationDate>2020-05-22T05:11:12.396+03:00</creationDate>
     <products>
         <entry>
             <key>1</key>
             <value>
-                <id>1</id>
+                <id>701</id>
                 <name>Pdf</name>
                 <coordinates x="10" y="5.0"/>
-                <creationDate>2020-05-21T00:41:26.129+03:00</creationDate>
+                <creationDate>2020-05-22T05:11:12.389+03:00</creationDate>
                 <price>23.0</price>
                 <partNumber>Dshfsdhfksdhfjkashdfjkashdfkjashdfjkd</partNumber>
                 <manufactureCost>9283</manufactureCost>
@@ -18,15 +19,15 @@
         <entry>
             <key>2</key>
             <value>
-                <id>495</id>
+                <id>908</id>
                 <name>Asdf</name>
                 <coordinates x="114" y="6.4"/>
-                <creationDate>2020-05-21T00:41:26.131+03:00</creationDate>
+                <creationDate>2020-05-22T05:11:12.395+03:00</creationDate>
                 <price>54.0</price>
                 <partNumber>Ksdajflksa;dfjksanfasdnfosidfnoiasdfnase</partNumber>
                 <manufactureCost>834</manufactureCost>
                 <unitOfMeasure>KILOGRAMS</unitOfMeasure>
-                <owner name="Ivan" height="185" weight="85.0" hairColor="RED"/>
+                <owner name="Ivan" height="185" weight="85.0"/>
             </value>
         </entry>
     </products>
