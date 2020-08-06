@@ -2,70 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9557c65c-bd26-4123-8d65-cae6f3cd3694" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lab5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Application/Exceptions/WrongArgumentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/AbstractCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/Clear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/CommandAggregator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/CountLessManCost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/ExecuteScript.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/Exit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/FilterPartNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/History.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/Insert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/Remove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/RemoveByUOM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/RemoveGrKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/RemoveLwrKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/Save.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/Show.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Commands/Update.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Controllers/InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Controllers/LineHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Controllers/TreeMapController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Controllers/XMLController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Lab5_jar/Lab5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Lab5_jar/Lab5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/AbstractCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/AbstractCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Clear.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Clear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/CommandAggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/CommandAggregator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/CountLessManCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/CountLessManCost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/ExecuteScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/ExecuteScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Exit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Exit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/FilterPartNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/FilterPartNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Help.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Help.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/History.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Insert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Insert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Remove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Remove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/RemoveByUOM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/RemoveByUOM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/RemoveGrKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/RemoveGrKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/RemoveLwrKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/RemoveLwrKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Save.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Save.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Show.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Commands/Update.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Controllers/InputReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Controllers/InputReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Controllers/LineHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Controllers/LineHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Controllers/TreeMapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Controllers/TreeMapController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Controllers/XMLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/Controllers/XMLController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/ProductClasses/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/ProductClasses/Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/ProductClasses/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/ProductClasses/Coordinates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/ProductClasses/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/ProductClasses/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/ProductClasses/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/ProductClasses/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/ProductClasses/UnitOfMeasure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Application/ProductClasses/UnitOfMeasure.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab5/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/ProductClasses/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/ProductClasses/Coordinates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/ProductClasses/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/ProductClasses/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab5/com/company/ProductClasses/UnitOfMeasure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.txt" beforeDir="false" afterPath="$PROJECT_DIR$/script.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/AbstractCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/AbstractCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Clear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/CommandAggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/CommandAggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/CountLessManCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/CountLessManCost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/ExecuteScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Exit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/FilterPartNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/FilterPartNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Help.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/Remove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Remove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/RemoveByUOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveByUOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/RemoveGrKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveGrKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/RemoveLwrKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveLwrKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Save.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Show.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Controllers/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Controllers/InputReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Controllers/LineHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Controllers/LineHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Controllers/TreeIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Controllers/TreeMapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Controllers/TreeMapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Controllers/TreeMapIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Controllers/XMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Controllers/XMLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.xml" beforeDir="false" afterPath="$PROJECT_DIR$/products.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/AbstractCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/AbstractCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Clear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/CommandAggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/CommandAggregator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/CountLessManCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/CountLessManCost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/ExecuteScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Exit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/FilterPartNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/FilterPartNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/Remove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Remove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveByUOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveByUOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveGrKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveGrKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveLwrKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveLwrKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Save.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Show.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Commands/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Controllers/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Controllers/InputReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Controllers/LineHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Controllers/LineHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Controllers/TreeMapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Controllers/TreeMapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/Controllers/XMLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/Controllers/XMLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/UnitOfMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/UnitOfMeasure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ProductClasses/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ProductClasses/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ProductClasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ProductClasses/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ProductClasses/UnitOfMeasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application/ProductClasses/UnitOfMeasure.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,72 +80,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/CommandAggregator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Show.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-740">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-              <folding>
-                <element signature="e#2354#2355#0" expanded="true" />
-                <element signature="e#2324#2325#0" expanded="true" />
-                <element signature="e#2394#2395#0" expanded="true" />
-                <element signature="e#2491#2492#0" expanded="true" />
-                <element signature="e#2525#2526#0" expanded="true" />
-                <element signature="e#2575#2576#0" expanded="true" />
-                <element signature="e#2629#2630#0" expanded="true" />
-                <element signature="e#2807#2808#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/XMLController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/TreeMapController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="1653">
+              <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
               <folding>
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#949#950#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-                <element signature="e#1432#1433#0" expanded="true" />
-                <element signature="e#2252#2253#0" expanded="true" />
-                <element signature="e#2286#2287#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Application/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-              <folding>
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
+                <element signature="method#getInstance#0;class#XMLController#0" />
               </folding>
             </state>
           </provider>
@@ -154,20 +103,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab5.iml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/TreeMapController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="1976">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/LineHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/InputReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1900">
+              <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Application/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -190,11 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Controllers/TreeMapIterator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Controllers/TreeIterator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Commands/Remove.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Commands/CountLessManCost.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Commands/RemoveGrKey.java" />
         <option value="$PROJECT_DIR$/src/com/company/Commands/RemoveLwrKey.java" />
         <option value="$PROJECT_DIR$/src/com/company/Commands/Show.java" />
         <option value="$PROJECT_DIR$/src/com/company/Commands/Clear.java" />
@@ -211,41 +179,45 @@
         <option value="$PROJECT_DIR$/src/com/company/Controllers/LineHandler.java" />
         <option value="$PROJECT_DIR$/src/com/company/Controllers/XMLController.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application.java" />
+        <option value="$PROJECT_DIR$/out/artifacts/Lab5_jar/products.xml" />
+        <option value="$PROJECT_DIR$/products.xml" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/ProductClasses/ProductComparator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/Controllers/FieldChecker.java" />
+        <option value="$PROJECT_DIR$/test.xml" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Product.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Coordinates.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Color.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/ProductClasses/UnitOfMeasure.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/Exceptions/WrongArgumentException.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Clear.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/CountLessManCost.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/ExecuteScript.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Exit.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/FilterPartNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Help.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/History.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Info.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Insert.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Remove.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveByUOM.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveGrKey.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/RemoveLwrKey.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Save.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Show.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Update.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Exit.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Commands/AbstractCommand.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Coordinates.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Person.java" />
-        <option value="$PROJECT_DIR$/out/artifacts/Lab5_jar/products.xml" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Save.java" />
-        <option value="$PROJECT_DIR$/products.xml" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/ProductClasses/Product.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/ProductClasses/ProductComparator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Info.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/Commands/Help.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Controllers/LineHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/Controllers/InputReader.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/Controllers/XMLController.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/Commands/CommandAggregator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Application/Controllers/TreeMapController.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Application/Application.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/Controllers/InputReader.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/Controllers/TreeMapController.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/Commands/CommandAggregator.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Application/Controllers/XMLController.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -256,48 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -354,6 +284,40 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,7 +327,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -385,31 +349,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Lab5" />
-      <option name="PROGRAM_PARAMETERS" value="products.xml" />
+      <option name="PROGRAM_PARAMETERS" value="products.xm" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -431,12 +384,15 @@
       <workItem from="1588524833698" duration="21597000" />
       <workItem from="1588790094695" duration="2362000" />
       <workItem from="1590007152870" duration="10707000" />
-      <workItem from="1590071454356" duration="31820000" />
+      <workItem from="1590071454356" duration="36534000" />
+      <workItem from="1591193705495" duration="35988000" />
+      <workItem from="1592514804643" duration="963000" />
+      <workItem from="1596646003444" duration="603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131540000" />
+    <option name="totallyTimeSpent" value="173808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,10 +404,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27753934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28826895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,7 +415,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30063695" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.23694268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,7 +424,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299363" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.30063695" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -516,262 +471,55 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/lab5-master/src/Exceptions/RightException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/lab5-master/src/Exceptions/ExistanceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/lab5-master/src/Tools/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/lab5-master/src/Exceptions/HumanValueException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/lab5-master/src/Exceptions/RepeatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/lab5-master/src/Bin/Commands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="140" column="32" lean-forward="true" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.company">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.company</OriginalElement>
-          <nodes>
-            <node x="" y="">com.company.Commands.FilterPartNumber</node>
-            <node x="" y="">com.company.ProductClasses.Color</node>
-            <node x="" y="">com.company.Commands.Save</node>
-            <node x="" y="">com.company.Commands.Show</node>
-            <node x="" y="">com.company.Main</node>
-            <node x="" y="">com.company.Commands.Clear</node>
-            <node x="" y="">com.company.ProductClasses.UnitOfMeasure</node>
-            <node x="" y="">com.company.Application</node>
-            <node x="" y="">com.company.Commands.Insert</node>
-            <node x="" y="">com.company.Commands.CountLessManCost</node>
-            <node x="" y="">com.company.Controllers.XMLController</node>
-            <node x="" y="">com.company.ProductClasses.Product</node>
-            <node x="" y="">com.company.Commands.Exit</node>
-            <node x="" y="">com.company.Commands.Remove</node>
-            <node x="" y="">com.company.ProductClasses.Person</node>
-            <node x="" y="">com.company.Commands.History</node>
-            <node x="" y="">com.company.Controllers.LineHandler</node>
-            <node x="" y="">com.company.Exceptions.InputException</node>
-            <node x="" y="">com.company.Commands.CommandAggregator</node>
-            <node x="" y="">com.company.Commands.ExecuteScript</node>
-            <node x="" y="">com.company.Commands.Update</node>
-            <node x="" y="">com.company.Commands.RemoveGrKey</node>
-            <node x="" y="">com.company.Controllers.InputReader</node>
-            <node x="" y="">com.company.Commands.RemoveLwrKey</node>
-            <node x="" y="">com.company.ProductClasses.Coordinates</node>
-            <node x="" y="">com.company.Controllers.TreeMapController</node>
-            <node x="" y="">com.company.Commands.AbstractCommand</node>
-            <node x="" y="">com.company.Commands.RemoveByUOM</node>
-            <node x="" y="">com.company.Commands.Info</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="1340.4999999999995" y="598.7499999999998" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Exceptions/InputException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/AbstractCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Clear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/CountLessManCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/ExecuteScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Exit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/FilterPartNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Remove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/RemoveByUOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="80" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/RemoveGrKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/RemoveLwrKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Show.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Update.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/UnitOfMeasure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/Coordinates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Exceptions/InputException.java" />
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/Lab5_jar.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/Lab5_jar/products.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Save.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -818,94 +566,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/ProductComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/ProductComparator.java" />
     <entry file="file://$USER_HOME$/Downloads/lab5-master/src/MyOwnClasses/Commands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2096">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/History.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Help.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/LineHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/InputReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="328" column="40" selection-start-line="328" selection-start-column="40" selection-end-line="328" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="e#2887#2888#0" expanded="true" />
-            <element signature="e#2933#2934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/XMLController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/CommandAggregator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-740">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="e#2354#2355#0" expanded="true" />
-            <element signature="e#2324#2325#0" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
-            <element signature="e#2525#2526#0" expanded="true" />
-            <element signature="e#2575#2576#0" expanded="true" />
-            <element signature="e#2629#2630#0" expanded="true" />
-            <element signature="e#2807#2808#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -929,70 +595,378 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/TreeMapController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding>
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/Lab5.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/javadoc/help-doc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/lab5-master/src/Tools/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5.iml">
+    <entry file="file://$PROJECT_DIR$/script.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="95">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/FieldChecker.java" />
+    <entry file="file://$PROJECT_DIR$/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/javadoc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;method#setId#0;class#Product#0" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="docComment;method#setName#0;class#Product#0" />
+            <element signature="docComment;method#setCoordinates#0;class#Product#0" />
+            <element signature="e#1967#1968#0" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="docComment;method#setCreationDate#0;class#Product#0" />
+            <element signature="e#1709#1710#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+            <element signature="docComment;method#setPrice#0;class#Product#0" />
+            <element signature="docComment;method#setPartNumber#0;class#Product#0" />
+            <element signature="docComment;method#setManufactureCost#0;class#Product#0" />
+            <element signature="docComment;method#setUnitOfMeasure#0;class#Product#0" />
+            <element signature="e#2704#2705#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
+            <element signature="docComment;method#setOwner#0;class#Product#0" />
+            <element signature="docComment;method#getUnitOfMeasure#0;class#Product#0" />
+            <element signature="e#4134#4135#0" expanded="true" />
+            <element signature="e#4170#4171#0" expanded="true" />
+            <element signature="docComment;method#getManufactureCost#0;class#Product#0" />
+            <element signature="e#2988#2989#0" expanded="true" />
+            <element signature="e#3026#3027#0" expanded="true" />
+            <element signature="docComment;method#getPartNumber#0;class#Product#0" />
+            <element signature="e#3080#3081#0" expanded="true" />
+            <element signature="e#3113#3114#0" expanded="true" />
+            <element signature="docComment;method#getId#0;class#Product#0" />
+            <element signature="e#3157#3158#0" expanded="true" />
+            <element signature="e#3182#3183#0" expanded="true" />
+            <element signature="docComment;method#getName#0;class#Product#0" />
+            <element signature="e#3230#3231#0" expanded="true" />
+            <element signature="e#3257#3258#0" expanded="true" />
+            <element signature="docComment;method#getCoordinates#0;class#Product#0" />
+            <element signature="e#3317#3318#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="docComment;method#getCreationDate#0;class#Product#0" />
+            <element signature="e#3405#3406#0" expanded="true" />
+            <element signature="e#3440#3441#0" expanded="true" />
+            <element signature="docComment;method#getPrice#0;class#Product#0" />
+            <element signature="e#3488#3489#0" expanded="true" />
+            <element signature="e#3516#3517#0" expanded="true" />
+            <element signature="docComment;method#getOwner#0;class#Product#0" />
+            <element signature="e#3565#3566#0" expanded="true" />
+            <element signature="e#3593#3594#0" expanded="true" />
+            <element signature="docComment;method#toString#0;class#Product#0" />
+            <element signature="docComment;method#compareTo#0;class#Product#0" />
+            <element signature="e#4224#4225#0" expanded="true" />
+            <element signature="e#4270#4271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;method#getName#0;class#Person#0" />
+            <element signature="docComment;method#setName#0;class#Person#0" />
+            <element signature="docComment;method#getHeight#0;class#Person#0" />
+            <element signature="docComment;method#setHeight#0;class#Person#0" />
+            <element signature="docComment;method#getWeight#0;class#Person#0" />
+            <element signature="docComment;method#setWeight#0;class#Person#0" />
+            <element signature="docComment;method#getHairColor#0;class#Person#0" />
+            <element signature="docComment;method#setHairColor#0;class#Person#0" />
+            <element signature="e#2307#2308#0" expanded="true" />
+            <element signature="e#2349#2350#0" expanded="true" />
+            <element signature="docComment;method#toString#0;class#Person#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/Coordinates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/ProductClasses/UnitOfMeasure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Exceptions/WrongArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="54" lean-forward="true" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Clear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/CountLessManCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/ExecuteScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Exit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/FilterPartNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Help.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/History.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/RemoveByUOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Remove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/RemoveGrKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/RemoveLwrKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/CommandAggregator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+          <folding>
+            <element signature="method#initCommands#0;class#CommandAggregator#0" />
+            <element signature="docComment;method#getInstance#0;class#CommandAggregator#0" />
+            <element signature="docComment;method#executeCommand#0;class#CommandAggregator#0" />
+            <element signature="docComment;method#isArgsCorrect#0;class#CommandAggregator#0" />
+            <element signature="docComment;method#getEnteredCommands#0;class#CommandAggregator#0" />
+            <element signature="docComment;method#commandExists#0;class#CommandAggregator#0" />
+            <element signature="docComment;method#commandsInfo#0;class#CommandAggregator#0" />
+            <element signature="docComment;method#exit#0;class#CommandAggregator#0" />
+            <element signature="docComment;method#getProduct#0;class#CommandAggregator#0" />
+            <element signature="docComment;method#updateProduct#0;class#CommandAggregator#0" />
+            <element signature="docComment;method#changeInputStream#0;class#CommandAggregator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/AbstractCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Save.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Commands/Show.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/TreeMapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/LineHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/InputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Application/Controllers/XMLController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+          <folding>
+            <element signature="method#getInstance#0;class#XMLController#0" />
+          </folding>
         </state>
       </provider>
     </entry>

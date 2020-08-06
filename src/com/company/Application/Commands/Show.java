@@ -1,7 +1,10 @@
+
 package com.company.Application.Commands;
 
 import com.company.Application.Controllers.TreeMapController;
-
+/**
+ * print collection content to System.out
+ */
 class Show extends AbstractCommand {
     @Override
     void execute(String[] args) {

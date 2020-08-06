@@ -1,7 +1,10 @@
+
 package com.company.Application.Commands;
 
 import com.company.Application.Controllers.XMLController;
-
+/**
+ * saves collection to file
+ */
 class Save extends AbstractCommand {
     @Override
     void execute(String[] args) {

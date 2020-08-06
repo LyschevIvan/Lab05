@@ -1,10 +1,13 @@
+
 package com.company.Application.Commands;
 
 import com.company.Application.Controllers.TreeMapController;
 import com.company.Application.ProductClasses.Product;
 
 import java.util.Iterator;
-
+/**
+ * counts all products with manufactureCost less then entered
+ */
 class CountLessManCost extends AbstractCommand {
     @Override
     void execute(String[] args) {
@@ -16,7 +19,15 @@ class CountLessManCost extends AbstractCommand {
             if (value.getManufactureCost() < cost)
                 counter++;
         }
-        System.out.println(counter);
+        String ending = "";
+        if (counter == 1)
+            ending = "";
+        else if((counter>=2)&&(counter<=4))
+            ending = "а";
+        else
+            ending = "ов";
+
+        System.out.println("Коллекция содержит "+counter+" элемент"+ending+" с рыночной стоимостью меньше заданной ");
     }
 
     @Override

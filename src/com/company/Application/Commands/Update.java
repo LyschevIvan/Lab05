@@ -1,14 +1,20 @@
+
 package com.company.Application.Commands;
 
 import com.company.Application.Controllers.TreeMapController;
-import com.company.Application.ProductClasses.Product;
-
+/**
+ * uses to change value by key in collection
+ */
 class Update extends AbstractCommand {
     @Override
     void execute(String[] args) {
-        Integer key = Integer.valueOf(args[1]);
-        Product product = commandAggregator.getProduct(TreeMapController.getInstance().getIdList());
-        TreeMapController.getInstance().replace(key, product);
+        int key = Integer.valueOf(args[1]);
+        try {
+            commandAggregator.updateProduct(TreeMapController.getInstance().getByID(key));
+        } catch (NullPointerException e) {
+            System.out.println("Не удалось найти элемент с данным Id. Попробуйте еще раз");
+        }
+
     }
 
     @Override

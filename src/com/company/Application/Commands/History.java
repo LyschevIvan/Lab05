@@ -1,5 +1,8 @@
-package com.company.Application.Commands;
 
+package com.company.Application.Commands;
+/**
+ * shows last 13 entered commands
+ */
 class History extends AbstractCommand {
     @Override
     void execute(String[] args) {

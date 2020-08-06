@@ -1,5 +1,8 @@
-package com.company.Application.ProductClasses;
 
+package com.company.Application.ProductClasses;
+/**
+ * enum units of measure
+ */
 public enum UnitOfMeasure {
     KILOGRAMS("Kg"),
     PCS("Pcs"),
@@ -11,6 +14,10 @@ public enum UnitOfMeasure {
         this.name = name;
     }
 
+    /**
+     * converts UnitOfMeasure to String
+     * @return String
+     */
     @Override
     public String toString() {
         return name;

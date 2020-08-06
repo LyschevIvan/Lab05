@@ -1,7 +1,10 @@
+
 package com.company.Application.Controllers;
 
 import com.company.Application.Commands.CommandAggregator;
-
+/**
+ * uses to correct call Command if it is in line
+ */
 class LineHandler {
     LineHandler() {
         commands = CommandAggregator.getInstance();
@@ -9,6 +12,11 @@ class LineHandler {
     }
 
     private CommandAggregator commands;
+
+    /**
+     * check next command line
+     * @param line String
+     */
     void nextLine(String line){
 
 
@@ -22,11 +30,7 @@ class LineHandler {
                 System.out.println("аргументы команды указаны неверно (введите help для списка команд)");
         }
         else
-            incorrectCommandNotification();
+            System.out.println("команда введена неверно (введите help для списка команд)");
 
-
-    }
-    private void incorrectCommandNotification(){
-        System.out.println("команда введена неверно (введите help для списка команд)");
     }
 }

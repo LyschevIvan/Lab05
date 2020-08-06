@@ -1,10 +1,13 @@
+
 package com.company.Application.Commands;
 
 import com.company.Application.Controllers.TreeMapController;
 import com.company.Application.ProductClasses.Product;
 
-
-public class Insert extends AbstractCommand {
+/**
+ * insert with key
+ */
+class Insert extends AbstractCommand {
     @Override
     public void execute(String[] args) {
         Product product = commandAggregator.getProduct(TreeMapController.getInstance().getIdList());

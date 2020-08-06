@@ -1,3 +1,4 @@
+
 package com.company.Application.Commands;
 
 import com.company.Application.Controllers.TreeMapController;
@@ -5,7 +6,9 @@ import com.company.Application.ProductClasses.Product;
 import com.company.Application.ProductClasses.UnitOfMeasure;
 
 import java.util.Iterator;
-
+/**
+ * remove by @see UnitOfMeasure
+ */
 class RemoveByUOM extends AbstractCommand {
     @Override
     void execute(String[] args) {

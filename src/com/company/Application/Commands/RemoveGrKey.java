@@ -1,9 +1,12 @@
+
 package com.company.Application.Commands;
 
 import com.company.Application.Controllers.TreeMapController;
 
 import java.util.Iterator;
-
+/**
+ * remove if key is greater
+ */
 class RemoveGrKey extends AbstractCommand {
     @Override
     void execute(String[] args) {

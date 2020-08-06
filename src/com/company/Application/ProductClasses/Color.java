@@ -1,5 +1,8 @@
-package com.company.Application.ProductClasses;
 
+package com.company.Application.ProductClasses;
+/**
+ * enum Colors
+ */
 public enum Color {
     GREEN("Green"),
 
@@ -12,7 +15,10 @@ public enum Color {
     Color(String name) {
         this.name = name;
     }
-
+    /**
+     * convert Color to String
+     * @return String
+     */
     @Override
     public String toString() {
         return name;

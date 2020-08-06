@@ -1,13 +1,16 @@
+
 package com.company.Application.Commands;
 
 
 import java.io.File;
-
-public class ExecuteScript extends AbstractCommand {
+/**
+ * reads commands from file
+ */
+class ExecuteScript extends AbstractCommand {
     @Override
     public void execute(String[] args) {
         String fileName = args[1];
-        System.out.println(fileName);
+
         File file = new File(fileName);
         commandAggregator.changeInputStream(file);
 
@@ -18,7 +21,7 @@ public class ExecuteScript extends AbstractCommand {
     @Override
     public boolean argsIsCorrect(String[] args) {
         if(args.length >= 2)
-            return args[1].matches("\\w+\\.txt");
+            return args[1].matches("(.)+\\.((txt)|(java))$");
         return false;
     }
 

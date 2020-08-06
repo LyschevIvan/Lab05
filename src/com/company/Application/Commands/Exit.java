@@ -1,6 +1,9 @@
-package com.company.Application.Commands;
 
-public class Exit extends AbstractCommand {
+package com.company.Application.Commands;
+/**
+ * exit from application
+ */
+class Exit extends AbstractCommand {
     @Override
     public void execute(String[] args) {
 

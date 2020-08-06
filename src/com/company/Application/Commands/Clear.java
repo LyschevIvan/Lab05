@@ -1,7 +1,10 @@
+
 package com.company.Application.Commands;
 
 import com.company.Application.Controllers.TreeMapController;
-
+/**
+ * clears collection
+ */
 class Clear extends AbstractCommand {
     @Override
     void execute(String[] args) {

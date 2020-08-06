@@ -1,7 +1,10 @@
+
 package com.company.Application.Commands;
 
-
-public class Help extends AbstractCommand {
+/**
+ * shows information about commands
+ */
+class Help extends AbstractCommand {
     @Override
     public void execute(String[] args) {
 

@@ -1,86 +1,192 @@
+
+
 package com.company.Application.ProductClasses;
+
+import com.company.Application.Exceptions.WrongArgumentException;
 
 import java.util.Date;
 import javax.xml.bind.annotation.*;
 
 
-
-
+/**Uses to contain information about product */
 @XmlRootElement
 public class Product implements Comparable<Product>{
-
-    @XmlElement
+    /**unique value, might be more then 0   */
     private Long id; //Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
-    @XmlElement
+    /**can't be empty, might be not null    */
     private String name; //Поле не может быть null, Строка не может быть пустой
-    @XmlElement
+
+    /** unique value, might be more then 0  */
     private Coordinates coordinates; //Поле не может быть null
-    @XmlElement
+    /** not nullable, generates automatically  */
     private java.util.Date creationDate; //Поле не может быть null, Значение этого поля должно генерироваться автоматически
-    @XmlElement
+    /** might be more then 0   */
     private float price; //Значение поля должно быть больше 0
-    @XmlElement
+    /** can't be empty. might be longer then 23 symbols  */
     private String partNumber; //Длина строки должна быть не меньше 23, Строка не может быть пустой, Поле не может быть null
-    @XmlElement
+    /** might be more then 0   */
     private long manufactureCost;
-    @XmlElement
+    /** not nullable  */
     private UnitOfMeasure unitOfMeasure; //Поле может быть null
-    @XmlElement
+    /** not nullable  */
     private Person owner; //Поле не может быть null
 
-
+    /** set Id
+     * @param id long */
     public void setId(long id) {
         this.id = id;
     }
-
-    public void setName(String name) {
+    /**
+     * set Name
+     * @param name String
+     * @throws WrongArgumentException if doesn't stick to conditions
+     */
+    public void setName(String name) throws WrongArgumentException {
+        if (name.matches("( )*"))
+            throw new WrongArgumentException("Введите правильное название продукта (значение не может быть пустым): ");
         this.name = name;
     }
+    /**
+     * set Coordinates
+     * @param coordinates Coordinates
+
+     */
 
     public void setCoordinates(Coordinates coordinates) {
         this.coordinates = coordinates;
     }
-
+    /**
+     * set Creation Date
+     * @param creationDate Date
+     */
     public void setCreationDate(Date creationDate) {
         this.creationDate = creationDate;
     }
-
-    public void setPrice(float price) {
+    /**
+     * set Price
+     * @param price float
+     * @throws WrongArgumentException if doesn't stick to conditions
+     */
+    public void setPrice(float price) throws WrongArgumentException {
+        if (price <= 0)
+            throw new WrongArgumentException("Введите значение больше нуля: ");
         this.price = price;
     }
-
-    public void setPartNumber(String partNumber) {
+    /**
+     * set Part number
+     * @param partNumber String
+     * @throws WrongArgumentException if doesn't stick to conditions
+     */
+    public void setPartNumber(String partNumber) throws WrongArgumentException {
+        if (partNumber.matches("( )*"))
+            throw new WrongArgumentException("Введите номер детали правильно(строка не может быть пустой): ");
+        if (partNumber.length()<23)
+            throw new WrongArgumentException("Введите номер детали правильно(минимум 23 символа): ");
         this.partNumber = partNumber;
     }
-
-    public void setManufactureCost(long manufactureCost) {
+    /**
+     * set Manufacture cost
+     * @param manufactureCost long
+     * @throws WrongArgumentException if doesn't stick to conditions
+     */
+    public void setManufactureCost(long manufactureCost) throws WrongArgumentException {
+        if (manufactureCost <= 0)
+            throw new WrongArgumentException("Введите значение больше нуля: ");
         this.manufactureCost = manufactureCost;
     }
-
+    /**
+     * set Unit of measure
+     * @param unitOfMeasure UnitOfMeasure
+     */
     public void setUnitOfMeasure(UnitOfMeasure unitOfMeasure) {
         this.unitOfMeasure = unitOfMeasure;
     }
-
-    public void setOwner(Person owner) {
+    /**
+     * set Name
+     * @param owner Person
+     * @throws WrongArgumentException if doesn't stick to conditions
+     */
+    public void setOwner(Person owner) throws WrongArgumentException {
+        if (owner == null)
+            throw new WrongArgumentException("Владелец должен существоавть");
         this.owner = owner;
     }
-    @XmlTransient
+    /**
+     * get Unit of measure
+     * @return UnitOfMeasure
+     */
+    @XmlElement
     public UnitOfMeasure getUnitOfMeasure() {
         return unitOfMeasure;
     }
-    @XmlTransient
+    /**
+     * get Manufacture cost
+     * @return long
+     */
+    @XmlElement
     public long getManufactureCost() {
         return manufactureCost;
     }
-    @XmlTransient
+    /**
+     * get Part number
+     * @return String
+     */
+    @XmlElement
     public String getPartNumber() {
         return partNumber;
     }
-    @XmlTransient
+    /**
+     * get Id
+     * @return long
+     * */
+    @XmlElement
     public long getId() {
         return id;
     }
-
+    /**
+     * get Name
+     * @return String
+     * */
+    @XmlElement
+    public String getName() {
+        return name;
+    }
+    /**
+     * get Coordinates
+     * @return Coordinates
+     */
+    @XmlElement
+    public Coordinates getCoordinates() {
+        return coordinates;
+    }
+    /**
+     * get Creation date
+     * @return java.util.Date
+     */
+    @XmlElement
+    public Date getCreationDate() {
+        return creationDate;
+    }
+    /**
+     * get Price
+     * @return float
+     */
+    @XmlElement
+    public float getPrice() {
+        return price;
+    }
+    /**
+     * get Owner
+     * @return Person
+     * */
+    @XmlElement
+    public Person getOwner() {
+        return owner;
+    }
+    /**
+     * converts to String
+     * @return String
+     */
     @Override
     public String toString() {
         return
@@ -96,7 +202,10 @@ public class Product implements Comparable<Product>{
                 "\n owner is " + owner.toString() +
                 '\n';
     }
-
+    /**
+     * compares one Product to other
+     * @return int
+     */
     @Override
     public int compareTo(Product o) {
         return this.id.compareTo(o.id);

@@ -1,7 +1,10 @@
+
 package com.company.Application.Commands;
 
 import com.company.Application.Controllers.TreeMapController;
-
+/**
+ * remove by key
+ */
 class Remove extends AbstractCommand {
     @Override
     void execute(String[] args) {

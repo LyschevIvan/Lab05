@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <treeMapController>
-    <creationDate>2020-05-22T05:11:12.396+03:00</creationDate>
     <products>
         <entry>
             <key>1</key>
             <value>
-                <id>701</id>
-                <name>Pdf</name>
                 <coordinates x="10" y="5.0"/>
-                <creationDate>2020-05-22T05:11:12.389+03:00</creationDate>
-                <price>23.0</price>
-                <partNumber>Dshfsdhfksdhfjkashdfjkashdfkjashdfjkd</partNumber>
+                <creationDate>2020-06-05T00:25:31.898+03:00</creationDate>
+                <id>46</id>
                 <manufactureCost>9283</manufactureCost>
+                <name>Pdf</name>
+                <owner hairColor="RED" height="180" name="Peter" weight="90.0"/>
+                <partNumber>Dshfsdhfksdhfjkashdfjkashdfkjashdfjkd</partNumber>
+                <price>23.0</price>
                 <unitOfMeasure>GRAMS</unitOfMeasure>
-                <owner name="Peter" height="180" weight="90.0" hairColor="RED"/>
             </value>
         </entry>
         <entry>
             <key>2</key>
             <value>
-                <id>908</id>
-                <name>Asdf</name>
                 <coordinates x="114" y="6.4"/>
-                <creationDate>2020-05-22T05:11:12.395+03:00</creationDate>
-                <price>54.0</price>
-                <partNumber>Ksdajflksa;dfjksanfasdnfosidfnoiasdfnase</partNumber>
+                <creationDate>2020-06-05T00:25:31.899+03:00</creationDate>
+                <id>36</id>
                 <manufactureCost>834</manufactureCost>
+                <name>Asdf</name>
+                <owner height="185" name="Ivan" weight="85.0"/>
+                <partNumber>Ksdajflksa;dfjksanfasdnfosidfnoiasdfnase</partNumber>
+                <price>54.0</price>
                 <unitOfMeasure>KILOGRAMS</unitOfMeasure>
-                <owner name="Ivan" height="185" weight="85.0"/>
             </value>
         </entry>
     </products>
