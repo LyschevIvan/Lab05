@@ -1,0 +1,6 @@
+com.company
+com.company.Application
+com.company.Application.Commands
+com.company.Application.Controllers
+com.company.Application.Exceptions
+com.company.Application.ProductClasses
