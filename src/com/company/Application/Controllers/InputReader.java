@@ -18,25 +18,17 @@ import java.util.Scanner;
  */
 public class InputReader {
 
-    private static InputReader inputReader = new InputReader();
+
 
     private static boolean isScript;
     private static boolean isOpened;
     private static Scanner reader;
     private static LineHandler lineHandler = new LineHandler();
 
-    private InputReader(){
+    public InputReader(){
         reader = new Scanner(System.in);
         isScript = false;
         isOpened = true;
-    }
-
-    /**
-     * returns instance of this class
-     * @return InputReader
-     */
-    public static InputReader getInstance(){
-        return inputReader;
     }
 
 

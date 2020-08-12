@@ -2,7 +2,10 @@
 
 package com.company.Application;
 
+import com.company.Application.Commands.CommandInvoker;
+import com.company.Application.Commands.ControllersProvider;
 import com.company.Application.Controllers.InputReader;
+import com.company.Application.Controllers.TreeMapController;
 import com.company.Application.Controllers.XMLController;
 
 /**
@@ -10,7 +13,6 @@ import com.company.Application.Controllers.XMLController;
  */
 public class Application {
     private String fileName;
-    private InputReader inputReader = InputReader.getInstance();
     public Application(String fileName) {
         this.fileName = fileName;
     }
@@ -21,12 +23,17 @@ public class Application {
      * exits if input stream is closed
      */
     public void start() {
+        InputReader inputReader = new InputReader();
+        XMLController xmlController = new XMLController();
+        TreeMapController treeMapController = new TreeMapController();
+        ControllersProvider controllersProvider = new ControllersProvider(inputReader, treeMapController, xmlController);
+        CommandInvoker commandInvoker = new CommandInvoker(controllersProvider);
 
-        XMLController.getInstance().loadTree(fileName);
+        xmlController.loadTree(fileName);
+        while (inputReader.isOpened()){
+            commandInvoker.nextCommand(inputReader);
+        }
 
-
-        while (inputReader.isOpened())
-        inputReader.readCommand();
     }
     
 }

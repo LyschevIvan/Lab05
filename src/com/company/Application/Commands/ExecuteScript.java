@@ -6,7 +6,7 @@ import java.io.File;
 /**
  * reads commands from file
  */
-class ExecuteScript extends AbstractCommand {
+class ExecuteScript implements AbstractCommand {
     @Override
     public void execute(String[] args) {
         String fileName = args[1];

@@ -12,11 +12,9 @@ import java.nio.file.attribute.BasicFileAttributes;
  * uses to load and save collection to xml
  */
 public class XMLController {
-    private static XMLController xmlController;
     private String filepath;
     private BasicFileAttributes attrs ;
-    private XMLController() {
-
+    public XMLController() {
     }
 
     /**
@@ -27,16 +25,7 @@ public class XMLController {
         return  attrs;
     }
 
-    /**
-     * return instance of this class
-     * @return XMLController
-     */
-    public static XMLController getInstance() {
-        if (xmlController == null) {
-            xmlController = new XMLController();
-        }
-        return xmlController;
-    }
+
 
     /**
      * converts class TreeMapController (and Map products in it) to XML file

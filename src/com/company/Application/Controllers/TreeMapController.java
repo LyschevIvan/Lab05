@@ -20,16 +20,6 @@ import java.util.function.BiConsumer;
 @XmlRootElement
 public class TreeMapController
 {
-    private static TreeMapController treeMapController = new TreeMapController();
-
-    /**
-     * returns instance of this class
-     * @return TreeMapController
-     */
-    public static TreeMapController getInstance(){
-        return treeMapController;
-    }
-
 
     private TreeMap<Integer, Product> products = new TreeMap<>();
 
@@ -68,19 +58,19 @@ public class TreeMapController
 
     }
 
-    /**
-     * shows info about collection file
-     */
-    public void showInfo(){
-        SimpleDateFormat date_format = new SimpleDateFormat("HH:mm:ss dd.MM.yy");
-
-        BasicFileAttributes attributes = XMLController.getInstance().getAttrs();
-        System.out.println("Тип: TreeMap");
-        System.out.println("Количество элементов: " + products.size());
-        System.out.println("Дата создания: " + (attributes == null ? "файл еще не создавался" : date_format.format(attributes.creationTime().toMillis())));
-        System.out.println("Дата последнего изменения: " + (attributes == null ? "файл еще не создавался" : date_format.format(attributes.lastModifiedTime().toMillis())));
-
-    }
+//    /**
+//     * shows info about collection file
+//     */
+//    public void showInfo(){
+//        SimpleDateFormat date_format = new SimpleDateFormat("HH:mm:ss dd.MM.yy");
+//
+//        BasicFileAttributes attributes = XMLController.getInstance().getAttrs();
+//        System.out.println("Тип: TreeMap");
+//        System.out.println("Количество элементов: " + products.size());
+//        System.out.println("Дата создания: " + (attributes == null ? "файл еще не создавался" : date_format.format(attributes.creationTime().toMillis())));
+//        System.out.println("Дата последнего изменения: " + (attributes == null ? "файл еще не создавался" : date_format.format(attributes.lastModifiedTime().toMillis())));
+//
+//    }
 
     /**
      * clears collection

@@ -3,7 +3,7 @@ package com.company.Application.Commands;
 /**
  * exit from application
  */
-class Exit extends AbstractCommand {
+class Exit implements AbstractCommand {
     @Override
     public void execute(String[] args) {
 

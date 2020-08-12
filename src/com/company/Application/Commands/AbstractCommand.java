@@ -1,14 +1,15 @@
 
 package com.company.Application.Commands;
 /**
- * designate all Commands interface and contains itself aggregator
+ * designate all Commands interface
  */
-public abstract class AbstractCommand {
+abstract class AbstractCommand {
 
-    AbstractCommand(){
-        commandAggregator = CommandAggregator.getInstance();
+    protected ControllersProvider controllersProvider;
+
+    public AbstractCommand(ControllersProvider controllersProvider) {
+        this.controllersProvider = controllersProvider;
     }
-    CommandAggregator commandAggregator;
 
     /**
      * executes command

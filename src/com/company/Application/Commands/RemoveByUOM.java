@@ -7,11 +7,11 @@ import com.company.Application.ProductClasses.UnitOfMeasure;
 
 import java.util.Iterator;
 /**
- * remove by @see UnitOfMeasure
+ * remove by UnitOfMeasure
  */
-class RemoveByUOM extends AbstractCommand {
+class RemoveByUOM implements AbstractCommand {
     @Override
-    void execute(String[] args) {
+    public void execute(String[] args) {
         UnitOfMeasure unitOfMeasure;
         switch (args[1].toLowerCase()){
             case "kg": unitOfMeasure = UnitOfMeasure.KILOGRAMS; break;
@@ -30,14 +30,14 @@ class RemoveByUOM extends AbstractCommand {
     }
 
     @Override
-    boolean argsIsCorrect(String[] args) {
+    public boolean argsIsCorrect(String[] args) {
         if(args.length >= 2)
             return args[1].toLowerCase().matches("(kg)|(pcs)|(gr)|(mg)|(null)");
         return false;
     }
 
     @Override
-    void getInfo() {
+    public void getInfo() {
         System.out.println("remove_all_by_unit_of_measure (KG|PCS|GR|MG|null) : удалить из коллекции все элементы значение поля unitOfmeasure которого эквивалентно заданному");
     }
 }

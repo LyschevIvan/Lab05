@@ -13,13 +13,19 @@ import java.util.Queue;
  * Singleton
  * manages commands and produce access to some inputReader functions
  */
-public class CommandAggregator {
-    private static CommandAggregator commandAggregator = new CommandAggregator();
-    private InputReader inputReader = InputReader.getInstance();
-    private Queue<String> enteredCommands = new LinkedList<>();
-    private int enteredCommandsCounter =0;
+public class CommandInvoker {
 
-    public void initCommands(){
+//    private InputReader inputReader = InputReader.getInstance();
+    private final Queue<String> enteredCommands = new LinkedList<>();
+    private int enteredCommandsCounter =0;
+    private final LinkedHashMap<String, AbstractCommand> commands = new LinkedHashMap<>();
+
+
+    public CommandInvoker(ControllersProvider controllersProvider) {
+        initCommands(controllersProvider);
+    }
+
+    private void initCommands(ControllersProvider controllersProvider){
         commands.put("help", new Help());
         commands.put("info", new Info());
         commands.put("insert", new Insert());
@@ -38,18 +44,9 @@ public class CommandAggregator {
         commands.put("filter_contains_part_number", new FilterPartNumber());
     }
 
-    /**
-     * gets instance for CommandAggregator
-     * @return CommandAggregator
-     */
-    public static CommandAggregator getInstance(){
-        if(commandAggregator == null){
-            commandAggregator = new CommandAggregator();
-        }
-        return commandAggregator;
-    }
 
-    private LinkedHashMap<String, AbstractCommand> commands = new LinkedHashMap<>();
+
+
 
     /**
      * execute command by it's name
@@ -89,10 +86,26 @@ public class CommandAggregator {
      * @param commandName String
      * @return boolean
      */
-    public boolean commandExists(String commandName){
+    private boolean commandExists(String commandName){
         return commands.containsKey(commandName.toLowerCase());
     }
 
+    public void nextCommand(String line){
+
+
+        String[] args = line.split(" ");
+        String command = args[0].toLowerCase();
+        if(commandExists(command)){
+            if(isArgsCorrect(args)){
+                executeCommand(args);
+            }
+            else
+                System.out.println("аргументы команды указаны неверно (введите help для списка команд)");
+        }
+        else
+            System.out.println("команда введена неверно (введите help для списка команд)");
+
+    }
     /**
      * uses to call function getInfo in each command
      */
@@ -100,35 +113,35 @@ public class CommandAggregator {
         commands.forEach((k,v)->v.getInfo());
     }
 
-    /**
-     * uses to provide function exit in inputReader
-     */
-    void exit(){
-        inputReader.exit();
-    }
-
-    /**
-     *
-     * @param idList LinkedList
-     * @return Product
-     */
-    Product getProduct(LinkedList<Long> idList){
-        return inputReader.readProduct(idList);
-    }
-
-    /**
-     * uses to provide function updateProduct in inputReader
-     * @param product Product
-     */
-    void updateProduct(Product product){
-        inputReader.updateProduct(product);
-    }
-
-    /**
-     * uses to provide function changeInputStream in inputReader
-     * @param file File
-     */
-    void changeInputStream(File file) {
-        inputReader.changeInputStream(file);
-    }
+//    /**
+//     * uses to provide function exit in inputReader
+//     */
+//    void exit(){
+//        inputReader.exit();
+//    }
+//
+//    /**
+//     *
+//     * @param idList LinkedList
+//     * @return Product
+//     */
+//    Product getProduct(LinkedList<Long> idList){
+//        return inputReader.readProduct(idList);
+//    }
+//
+//    /**
+//     * uses to provide function updateProduct in inputReader
+//     * @param product Product
+//     */
+//    void updateProduct(Product product){
+//        inputReader.updateProduct(product);
+//    }
+//
+//    /**
+//     * uses to provide function changeInputStream in inputReader
+//     * @param file File
+//     */
+//    void changeInputStream(File file) {
+//        inputReader.changeInputStream(file);
+//    }
 }

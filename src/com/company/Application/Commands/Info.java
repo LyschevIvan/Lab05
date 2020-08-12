@@ -5,19 +5,19 @@ import com.company.Application.Controllers.TreeMapController;
 /**
  * shows information about collection
  */
-class Info extends AbstractCommand {
+class Info implements AbstractCommand {
     @Override
-    void execute(String[] args) {
+    public void execute(String[] args) {
         TreeMapController.getInstance().showInfo();
     }
 
     @Override
-    boolean argsIsCorrect(String[] args) {
+    public boolean argsIsCorrect(String[] args) {
         return true;
     }
 
     @Override
-    void getInfo() {
+    public void getInfo() {
         System.out.println("info : выводит информацию о коллекции");
     }
 }

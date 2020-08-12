@@ -10,9 +10,9 @@ import java.util.regex.Pattern;
 /**
  * shows if PartNumber contains substring
  */
-class FilterPartNumber extends AbstractCommand {
+class FilterPartNumber implements AbstractCommand {
     @Override
-    void execute(String[] args) {
+    public void execute(String[] args) {
         String subStr = args[1];
         boolean foundOnce = false;
         Iterator<Product> values = TreeMapController.getInstance().getValueIterator();
@@ -33,13 +33,13 @@ class FilterPartNumber extends AbstractCommand {
     }
 
     @Override
-    boolean argsIsCorrect(String[] args) {
+    public boolean argsIsCorrect(String[] args) {
         return  args.length >= 2;
 
     }
 
     @Override
-    void getInfo() {
+    public void getInfo() {
         System.out.println("filter_contains_part_number string : вывести элементы, значение поля partNumber которых содержит заданную подстроку");
     }
 }

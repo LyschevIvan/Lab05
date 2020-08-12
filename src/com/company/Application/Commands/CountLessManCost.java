@@ -8,10 +8,10 @@ import java.util.Iterator;
 /**
  * counts all products with manufactureCost less then entered
  */
-class CountLessManCost extends AbstractCommand {
+class CountLessManCost implements AbstractCommand {
     @Override
-    void execute(String[] args) {
-        long cost = Long.valueOf(args[1]);
+    public void execute(String[] args) {
+        long cost = Long.parseLong(args[1]);
         Iterator<Product> values = TreeMapController.getInstance().getValueIterator();
         long counter = 0;
         while (values.hasNext()) {
@@ -31,14 +31,14 @@ class CountLessManCost extends AbstractCommand {
     }
 
     @Override
-    boolean argsIsCorrect(String[] args) {
+    public boolean argsIsCorrect(String[] args) {
         if(args.length >= 2)
             return  args[1].matches("(\\d+)");
         return false;
     }
 
     @Override
-    void getInfo() {
+    public void getInfo() {
         System.out.println("count_less_than_manufacture_cost long : выводит количество элементов, зачения поля manufectureCost которых меньше заданного");
     }
 }

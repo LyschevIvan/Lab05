@@ -6,19 +6,23 @@ import com.company.Application.Controllers.TreeMapController;
  * clears collection
  */
 class Clear extends AbstractCommand {
+    public Clear(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
-    void execute(String[] args) {
-        TreeMapController treeMapController = TreeMapController.getInstance();
+    public void execute(String[] args) {
+        TreeMapController treeMapController =
         treeMapController.clear();
     }
 
     @Override
-    boolean argsIsCorrect(String[] args) {
+    public boolean argsIsCorrect(String[] args) {
         return true;
     }
 
     @Override
-    void getInfo() {
+    public void getInfo() {
         System.out.println("clear : очищает коллекцию");
     }
 }

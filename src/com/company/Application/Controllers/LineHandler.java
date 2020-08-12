@@ -1,17 +1,17 @@
 
 package com.company.Application.Controllers;
 
-import com.company.Application.Commands.CommandAggregator;
+import com.company.Application.Commands.CommandInvoker;
 /**
  * uses to correct call Command if it is in line
  */
 class LineHandler {
     LineHandler() {
-        commands = CommandAggregator.getInstance();
+        commands = CommandInvoker.getInstance();
         commands.initCommands();
     }
 
-    private CommandAggregator commands;
+    private CommandInvoker commands;
 
     /**
      * check next command line

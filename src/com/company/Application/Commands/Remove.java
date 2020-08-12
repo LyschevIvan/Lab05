@@ -5,22 +5,22 @@ import com.company.Application.Controllers.TreeMapController;
 /**
  * remove by key
  */
-class Remove extends AbstractCommand {
+class Remove implements AbstractCommand {
     @Override
-    void execute(String[] args) {
+    public void execute(String[] args) {
         Integer k = Integer.valueOf(args[1]);
         TreeMapController.getInstance().remove(k);
     }
 
     @Override
-    boolean argsIsCorrect(String[] args) {
+    public boolean argsIsCorrect(String[] args) {
         if (args.length >= 2)
             return args[1].matches("\\d+");
         return false;
     }
 
     @Override
-    void getInfo() {
+    public void getInfo() {
         System.out.println("remove_key k : удаляет элемент с ключем k");
     }
 }

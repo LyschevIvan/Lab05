@@ -8,11 +8,16 @@ import com.company.Application.ProductClasses.Product;
  * insert with key
  */
 class Insert extends AbstractCommand {
+    public Insert(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
-        Product product = commandAggregator.getProduct(TreeMapController.getInstance().getIdList());
+        Product product = controllersProvider.readProduct();
         Integer key = Integer.valueOf(args[1]);
         TreeMapController.getInstance().put(key,product);
+
     }
 
     @Override

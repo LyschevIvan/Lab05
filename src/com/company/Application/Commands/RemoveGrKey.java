@@ -7,9 +7,9 @@ import java.util.Iterator;
 /**
  * remove if key is greater
  */
-class RemoveGrKey extends AbstractCommand {
+class RemoveGrKey implements AbstractCommand {
     @Override
-    void execute(String[] args) {
+    public void execute(String[] args) {
         Integer key = Integer.valueOf(args[1]);
         Iterator<Integer> keyIterator = TreeMapController.getInstance().getKeyIterator();
         while (keyIterator.hasNext()){
@@ -20,7 +20,7 @@ class RemoveGrKey extends AbstractCommand {
     }
 
     @Override
-    boolean argsIsCorrect(String[] args) {
+    public boolean argsIsCorrect(String[] args) {
         if(args.length >= 2)
             return args[1].matches("\\d+");
 
@@ -28,7 +28,7 @@ class RemoveGrKey extends AbstractCommand {
     }
 
     @Override
-    void getInfo() {
+    public void getInfo() {
         System.out.println("remove_greater_key key : удалить из коллекции все элементы, ключ которых превышает заданный");
     }
 }
