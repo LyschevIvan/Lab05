@@ -1,9 +1,14 @@
 
 package com.company.Application.Commands;
+
+import com.company.Application.Controllers.InputReader;
+import com.company.Application.Controllers.TreeMapController;
+import sun.font.TextRecord;
+
 /**
  * designate all Commands interface
  */
-abstract class AbstractCommand {
+abstract public class AbstractCommand {
 
     protected ControllersProvider controllersProvider;
 

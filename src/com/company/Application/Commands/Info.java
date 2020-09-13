@@ -1,14 +1,17 @@
 
 package com.company.Application.Commands;
 
-import com.company.Application.Controllers.TreeMapController;
 /**
  * shows information about collection
  */
-class Info implements AbstractCommand {
+class Info extends AbstractCommand {
+    public Info(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
-        TreeMapController.getInstance().showInfo();
+        controllersProvider.getTreeMapController().showInfo(controllersProvider.getXmlController());
     }
 
     @Override

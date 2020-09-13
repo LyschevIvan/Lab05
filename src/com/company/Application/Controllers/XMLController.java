@@ -30,16 +30,16 @@ public class XMLController {
     /**
      * converts class TreeMapController (and Map products in it) to XML file
      */
-    public void convertToXml() {
+    public void convertToXml(TreeMapController treeMapController) {
 
 
         try {
             StringWriter xml = new StringWriter();
 
-            JAXBContext context = JAXBContext.newInstance(TreeMapController.class);
+            JAXBContext context = JAXBContext.newInstance(treeMapController.getClass());
             Marshaller marshaller = context.createMarshaller();
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-            marshaller.marshal(TreeMapController.getInstance(), xml);
+            marshaller.marshal(treeMapController, xml);
             OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(filepath));
 
             attrs = Files.readAttributes(Paths.get(filepath), BasicFileAttributes.class);
@@ -63,7 +63,7 @@ public class XMLController {
      * converts XML file to Map of products
      * @param path String
      */
-    public void loadTree(String path) {
+    public void loadTree(String path, TreeMapController treeMapController) {
         try {
             BufferedInputStream baits = new BufferedInputStream(new FileInputStream(path));
             attrs = Files.readAttributes(Paths.get(path),BasicFileAttributes.class);
@@ -71,7 +71,7 @@ public class XMLController {
             JAXBContext context = JAXBContext.newInstance(TreeMapController.class);
             Unmarshaller unmarshaller = context.createUnmarshaller();
             TreeMapController o = (TreeMapController) unmarshaller.unmarshal(baits);
-            TreeMapController.getInstance().setProducts(o.getProducts());
+            treeMapController.setProducts(o.getProducts());
 
         }
         catch (JAXBException e){

@@ -1,15 +1,17 @@
 
 package com.company.Application.Commands;
 
-import com.company.Application.Controllers.XMLController;
 /**
  * saves collection to file
  */
-class Save implements AbstractCommand {
+class Save extends AbstractCommand {
+    public Save(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
-        XMLController xmlController = XMLController.getInstance();
-        xmlController.convertToXml();
+        controllersProvider.getXmlController().convertToXml(controllersProvider.getTreeMapController());
     }
 
     @Override

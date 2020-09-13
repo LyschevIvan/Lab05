@@ -1,7 +1,7 @@
 
 package com.company.Application.Commands;
 
-import com.company.Application.Controllers.TreeMapController;
+
 import com.company.Application.ProductClasses.Product;
 
 /**
@@ -16,7 +16,7 @@ class Insert extends AbstractCommand {
     public void execute(String[] args) {
         Product product = controllersProvider.readProduct();
         Integer key = Integer.valueOf(args[1]);
-        TreeMapController.getInstance().put(key,product);
+        controllersProvider.getTreeMapController().put(key,product);
 
     }
 

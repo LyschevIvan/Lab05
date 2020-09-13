@@ -4,11 +4,17 @@ package com.company.Application.Commands;
 /**
  * shows information about commands
  */
-class Help implements AbstractCommand {
+class Help extends AbstractCommand {
+    CommandInvoker commandInvoker;
+    public Help(ControllersProvider controllersProvider, CommandInvoker commandInvoker) {
+        super(controllersProvider);
+        this.commandInvoker = commandInvoker;
+    }
+
     @Override
     public void execute(String[] args) {
 
-        commandAggregator.commandsInfo();
+        commandInvoker.commandsInfo();
     }
 
     @Override

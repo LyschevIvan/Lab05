@@ -1,17 +1,19 @@
 
 package com.company.Application.Commands;
 
-import com.company.Application.Controllers.TreeMapController;
-
 import java.util.Iterator;
 /**
  * removes if key is lower
  */
-class RemoveLwrKey implements AbstractCommand {
+class RemoveLwrKey extends AbstractCommand {
+    public RemoveLwrKey(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
         Integer key = Integer.valueOf(args[1]);
-        Iterator<Integer> keyIterator = TreeMapController.getInstance().getKeyIterator();
+        Iterator<Integer> keyIterator = controllersProvider.getTreeMapController().getKeyIterator();
         while(keyIterator.hasNext()){
             Integer k = keyIterator.next();
             if(k<key)

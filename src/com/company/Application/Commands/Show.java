@@ -1,14 +1,17 @@
 
 package com.company.Application.Commands;
 
-import com.company.Application.Controllers.TreeMapController;
 /**
  * print collection content to System.out
  */
-class Show implements AbstractCommand {
+class Show extends AbstractCommand {
+    public Show(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
-        TreeMapController.getInstance().forEach((k,v)->System.out.println(k +" " + v.toString()));
+        controllersProvider.getTreeMapController().forEach((k,v)->System.out.println(k +" " + v.toString()));
     }
 
     @Override

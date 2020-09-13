@@ -1,7 +1,6 @@
 
 package com.company.Application.Commands;
 
-import com.company.Application.Controllers.TreeMapController;
 import com.company.Application.ProductClasses.Product;
 import com.company.Application.ProductClasses.UnitOfMeasure;
 
@@ -9,7 +8,11 @@ import java.util.Iterator;
 /**
  * remove by UnitOfMeasure
  */
-class RemoveByUOM implements AbstractCommand {
+class RemoveByUOM extends AbstractCommand {
+    public RemoveByUOM(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
         UnitOfMeasure unitOfMeasure;
@@ -20,7 +23,7 @@ class RemoveByUOM implements AbstractCommand {
             case "mg": unitOfMeasure = UnitOfMeasure.MILLIGRAMS; break;
             default: unitOfMeasure = null;
         }
-        Iterator<Product> valueIterator = TreeMapController.getInstance().getValueIterator();
+        Iterator<Product> valueIterator = controllersProvider.getTreeMapController().getValueIterator();
         while(valueIterator.hasNext()){
             Product k = valueIterator.next();
             if(k.getUnitOfMeasure().equals(unitOfMeasure)){

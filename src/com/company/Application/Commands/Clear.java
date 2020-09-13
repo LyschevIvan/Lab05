@@ -12,8 +12,7 @@ class Clear extends AbstractCommand {
 
     @Override
     public void execute(String[] args) {
-        TreeMapController treeMapController =
-        treeMapController.clear();
+        controllersProvider.getTreeMapController().clear();
     }
 
     @Override

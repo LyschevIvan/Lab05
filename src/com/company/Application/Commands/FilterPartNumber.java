@@ -1,7 +1,6 @@
 
 package com.company.Application.Commands;
 
-import com.company.Application.Controllers.TreeMapController;
 import com.company.Application.ProductClasses.Product;
 
 import java.util.Iterator;
@@ -10,12 +9,16 @@ import java.util.regex.Pattern;
 /**
  * shows if PartNumber contains substring
  */
-class FilterPartNumber implements AbstractCommand {
+class FilterPartNumber extends AbstractCommand {
+    public FilterPartNumber(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
         String subStr = args[1];
         boolean foundOnce = false;
-        Iterator<Product> values = TreeMapController.getInstance().getValueIterator();
+        Iterator<Product> values = controllersProvider.getTreeMapController().getValueIterator();
         Pattern pattern = Pattern.compile(subStr);
         Matcher matcher;
 

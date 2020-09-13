@@ -2,6 +2,7 @@
 package com.company.Application.Controllers;
 
 
+import com.company.Application.Commands.CommandInvoker;
 import com.company.Application.Exceptions.WrongArgumentException;
 import com.company.Application.ProductClasses.*;
 
@@ -13,7 +14,6 @@ import java.util.Scanner;
 
 
 /**
- * Singleton
  * uses to manage input stream and handle it
  */
 public class InputReader {
@@ -23,7 +23,7 @@ public class InputReader {
     private static boolean isScript;
     private static boolean isOpened;
     private static Scanner reader;
-    private static LineHandler lineHandler = new LineHandler();
+    private static final LineHandler lineHandler = new LineHandler();
 
     public InputReader(){
         reader = new Scanner(System.in);
@@ -56,14 +56,15 @@ public class InputReader {
 
     /**
      * reads command line
+     * @param commandInvoker commandInvoker
      */
-    public void readCommand(){
+    public void readCommand(CommandInvoker commandInvoker){
         if (reader.hasNextLine()) {
             String command = reader.nextLine();
             if (isScript) {
                 System.out.println(command);
             }
-            lineHandler.nextLine(command);
+            lineHandler.nextLine(command, commandInvoker);
         }
         else{
             returnInputStream();
@@ -166,7 +167,7 @@ public class InputReader {
         while(!is_correct) {
             String inp = reader.nextLine();
             try {
-                product.setPrice(Float.valueOf(inp));
+                product.setPrice(Float.parseFloat(inp));
                 is_correct = true;
 
             } catch (NumberFormatException e ) {
@@ -203,7 +204,7 @@ public class InputReader {
         is_correct = false;
         while(!is_correct) {
             try {
-                product.setManufactureCost(Long.valueOf(reader.nextLine()));
+                product.setManufactureCost(Long.parseLong(reader.nextLine()));
                 is_correct = true;
             } catch (NumberFormatException e ) {
                 System.out.print("Введите правильное значение(целое число): ");
@@ -449,7 +450,7 @@ public class InputReader {
             }
             else {
                 try {
-                    product.setPrice(Float.valueOf(inp));
+                    product.setPrice(Float.parseFloat(inp));
                     is_correct = true;
                     if (isScript)
                         System.out.println(inp);
@@ -501,7 +502,7 @@ public class InputReader {
             }
             else {
                 try{
-                    product.setManufactureCost(Long.valueOf(inp));
+                    product.setManufactureCost(Long.parseLong(inp));
                     is_correct = true;
                     if (isScript){
                         System.out.println(inp);

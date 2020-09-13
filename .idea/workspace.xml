@@ -103,7 +103,12 @@
       <workItem from="1597082764029" duration="153000" />
       <workItem from="1597083003881" duration="2119000" />
       <workItem from="1597150935848" duration="1847000" />
-      <workItem from="1597254762493" duration="8423000" />
+      <workItem from="1597254762493" duration="8424000" />
+      <workItem from="1599388480918" duration="87000" />
+      <workItem from="1599767001375" duration="697000" />
+      <workItem from="1599770996958" duration="6439000" />
+      <workItem from="1599838109756" duration="6282000" />
+      <workItem from="1600006462543" duration="615000" />
     </task>
     <servers />
   </component>
@@ -146,90 +151,57 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="872" y="340" key="#Plugins" timestamp="1599771108664">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="340" key="#Plugins/0.0.2560.1400@0.0.2560.1400" timestamp="1599771108664" />
     <state x="1085" y="415" key="#com.intellij.ide.util.MemberChooser" timestamp="1597266479256">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1085" y="415" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1597266479256" />
+    <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599767028598">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="960" y="435" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599767028598" />
     <state x="634" y="71" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597266948735">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="634" y="71" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1597266948735" />
-    <state x="141" y="348" key="SettingsEditor" timestamp="1597083198641">
+    <state x="1060" y="417" key="FileChooserDialogImpl" timestamp="1599773334328">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="141" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1597083198641" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Lab5:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="1060" y="417" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599773334328" />
+    <state width="2517" height="249" key="GridCell.Tab.0.bottom" timestamp="1599847050406">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="249" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1599847050406" />
+    <state width="2517" height="249" key="GridCell.Tab.0.center" timestamp="1599847050406">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="249" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1599847050406" />
+    <state width="2517" height="249" key="GridCell.Tab.0.left" timestamp="1599847050406">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="249" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1599847050406" />
+    <state width="2517" height="249" key="GridCell.Tab.0.right" timestamp="1599847050406">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="249" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1599847050406" />
+    <state x="945" y="404" key="NewModule_or_Project.wizard" timestamp="1599773341354">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="945" y="404" key="NewModule_or_Project.wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1599773341354" />
+    <state x="141" y="348" key="SettingsEditor" timestamp="1600007026334">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="141" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1600007026334" />
+    <state x="839" y="364" key="new project wizard" timestamp="1599388577616">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="839" y="364" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1599388577616" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1599842910875">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1599842910875" />
   </component>
 </project>

@@ -1,15 +1,18 @@
 
 package com.company.Application.Commands;
 
-import com.company.Application.Controllers.TreeMapController;
 /**
  * remove by key
  */
-class Remove implements AbstractCommand {
+class Remove extends AbstractCommand {
+    public Remove(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
         Integer k = Integer.valueOf(args[1]);
-        TreeMapController.getInstance().remove(k);
+        controllersProvider.getTreeMapController().remove(k);
     }
 
     @Override

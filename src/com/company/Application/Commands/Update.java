@@ -1,16 +1,19 @@
 
 package com.company.Application.Commands;
 
-import com.company.Application.Controllers.TreeMapController;
 /**
  * uses to change value by key in collection
  */
-class Update implements AbstractCommand {
+class Update extends AbstractCommand {
+    public Update(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
-        int key = Integer.valueOf(args[1]);
+        int key = Integer.parseInt(args[1]);
         try {
-            commandAggregator.updateProduct(TreeMapController.getInstance().getByID(key));
+            controllersProvider.getInputReader().updateProduct(controllersProvider.getTreeMapController().getByID(key));
         } catch (NullPointerException e) {
             System.out.println("Не удалось найти элемент с данным Id. Попробуйте еще раз");
         }

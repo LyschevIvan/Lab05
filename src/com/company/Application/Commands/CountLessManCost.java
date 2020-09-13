@@ -1,18 +1,20 @@
-
 package com.company.Application.Commands;
 
-import com.company.Application.Controllers.TreeMapController;
 import com.company.Application.ProductClasses.Product;
 
 import java.util.Iterator;
 /**
  * counts all products with manufactureCost less then entered
  */
-class CountLessManCost implements AbstractCommand {
+class CountLessManCost extends AbstractCommand {
+    public CountLessManCost(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
         long cost = Long.parseLong(args[1]);
-        Iterator<Product> values = TreeMapController.getInstance().getValueIterator();
+        Iterator<Product> values = controllersProvider.getTreeMapController().getValueIterator();
         long counter = 0;
         while (values.hasNext()) {
             Product value = values.next();

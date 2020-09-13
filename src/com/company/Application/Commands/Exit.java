@@ -3,11 +3,14 @@ package com.company.Application.Commands;
 /**
  * exit from application
  */
-class Exit implements AbstractCommand {
+class Exit extends AbstractCommand {
+    public Exit(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
-
-        commandAggregator.exit();
+        controllersProvider.getInputReader().exit();
     }
 
     @Override

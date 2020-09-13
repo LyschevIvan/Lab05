@@ -6,13 +6,17 @@ import java.io.File;
 /**
  * reads commands from file
  */
-class ExecuteScript implements AbstractCommand {
+class ExecuteScript extends AbstractCommand {
+    public ExecuteScript(ControllersProvider controllersProvider) {
+        super(controllersProvider);
+    }
+
     @Override
     public void execute(String[] args) {
         String fileName = args[1];
 
         File file = new File(fileName);
-        commandAggregator.changeInputStream(file);
+        controllersProvider.getInputReader().changeInputStream(file);
 
 
     }
