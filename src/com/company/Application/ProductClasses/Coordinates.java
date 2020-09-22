@@ -3,6 +3,7 @@
  */
 package com.company.Application.ProductClasses;
 
+import com.company.Application.Exceptions.InfiniteCoordinate;
 import com.company.Application.Exceptions.WrongArgumentException;
 
 import javax.xml.bind.annotation.XmlAttribute;
@@ -52,9 +53,11 @@ public class Coordinates {
      * @param y Float
      * @throws WrongArgumentException if doesn't stick to conditions
      */
-    public void setY(Float y) throws WrongArgumentException {
+    public void setY(Float y) throws WrongArgumentException, InfiniteCoordinate {
         if (y > 890)
             throw new WrongArgumentException("Введите значение не больше 890: ");
+        if (y.isInfinite())
+            throw new InfiniteCoordinate("Введите значение не может быть бесконечным: ");
         this.y = y;
     }
 

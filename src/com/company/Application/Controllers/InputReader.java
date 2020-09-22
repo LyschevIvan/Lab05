@@ -3,6 +3,7 @@ package com.company.Application.Controllers;
 
 
 import com.company.Application.Commands.CommandInvoker;
+import com.company.Application.Exceptions.InfiniteCoordinate;
 import com.company.Application.Exceptions.WrongArgumentException;
 import com.company.Application.ProductClasses.*;
 
@@ -151,6 +152,8 @@ public class InputReader {
                 System.out.print("Введите правильное значение y (число с палвующей запятой): ");
             }
             catch (WrongArgumentException e){
+                System.out.print(e.getMessage());
+            } catch (InfiniteCoordinate e) {
                 System.out.print(e.getMessage());
             }
         }
@@ -429,6 +432,8 @@ public class InputReader {
                 catch (NumberFormatException e){
                     System.out.print("Введите правильное значение y (число с плавающей точкой): ");
                 } catch (WrongArgumentException e) {
+                    System.out.print(e.getMessage());
+                } catch (InfiniteCoordinate e) {
                     System.out.print(e.getMessage());
                 }
 
