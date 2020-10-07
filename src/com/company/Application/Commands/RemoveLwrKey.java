@@ -12,7 +12,7 @@ class RemoveLwrKey extends AbstractCommand {
 
     @Override
     public void execute(String[] args) {
-        Integer key = Integer.valueOf(args[1]);
+        int key = Integer.parseInt(args[1]);
         Iterator<Integer> keyIterator = controllersProvider.getTreeMapController().getKeyIterator();
         while(keyIterator.hasNext()){
             Integer k = keyIterator.next();
@@ -25,13 +25,20 @@ class RemoveLwrKey extends AbstractCommand {
 
     @Override
     public boolean argsIsCorrect(String[] args) {
-        if(args.length >= 2)
-            return args[1].matches("\\d+");
-        return false;
+        try{
+            Integer.parseInt(args[1]);
+            return true;
+        }
+        catch (NumberFormatException e){
+            return false;
+        }
+//        if(args.length >= 2)
+//            return args[1].matches("\\d+");
+//        return false;
     }
 
     @Override
     public void getInfo() {
-        System.out.println("remove_lower_key key : удалить из коллекции все элементы, ключ которых меньше чем заданный");
+        System.out.println("remove_lower_key int : удалить из коллекции все элементы, ключ которых меньше чем заданный");
     }
 }

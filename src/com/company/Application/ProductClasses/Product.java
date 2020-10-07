@@ -194,11 +194,11 @@ public class Product implements Comparable<Product>{
                 "\n id = " + id +
                 "\n name = '" + name + '\'' +
                 "\n coordinates : " + coordinates.toString() +
-                "\n creationDate = " + creationDate +
-                "\n price=" + price +
+                "\n creationDate : " + creationDate +
+                "\n price = " + price +
                 "\n partNumber = '" + partNumber + '\'' +
                 "\n manufactureCost = " + manufactureCost +
-                "\n unitOfMeasure = " + unitOfMeasure +
+                "\n unitOfMeasure : " + unitOfMeasure +
                 "\n owner is " + owner.toString() +
                 '\n';
     }

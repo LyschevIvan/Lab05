@@ -99,7 +99,7 @@ public class TreeMapController
      * do function for each element
      * @param biConsumer BiConsumer
      */
-    public void forEach(BiConsumer biConsumer){
+    public void forEach(BiConsumer<Integer,Product> biConsumer){
         products.forEach(biConsumer);
 
     }

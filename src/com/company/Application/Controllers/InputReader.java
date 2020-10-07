@@ -21,10 +21,9 @@ public class InputReader {
 
 
 
-    private static boolean isScript;
-    private static boolean isOpened;
-    private static Scanner reader;
-    private static final LineHandler lineHandler = new LineHandler();
+    private boolean isScript;
+    private boolean isOpened;
+    private Scanner reader;
 
     public InputReader(){
         reader = new Scanner(System.in);
@@ -47,28 +46,31 @@ public class InputReader {
     }
 
     /**
-     * changes input stream to System.in
-     */
-    private static void returnInputStream(){
-        reader = new Scanner(System.in);
-        isScript = false;
-        isOpened = true;
-    }
-
-    /**
      * reads command line
      * @param commandInvoker commandInvoker
      */
     public void readCommand(CommandInvoker commandInvoker){
         if (reader.hasNextLine()) {
-            String command = reader.nextLine();
+            String line = reader.nextLine();
             if (isScript) {
-                System.out.println(command);
+                System.out.println(line);
             }
-            lineHandler.nextLine(command, commandInvoker);
+            String[] args = line.split(" ");
+            String command = args[0].toLowerCase();
+            if(commandInvoker.commandExists(command)){
+                if(commandInvoker.isArgsCorrect(args)){
+                    commandInvoker.executeCommand(args);
+                }
+                else
+                    System.out.println("аргументы команды указаны неверно (введите help для списка команд)");
+            }
+            else
+                System.out.println("команда введена неверно (введите help для списка команд)");
         }
         else{
-            returnInputStream();
+            this.reader = new Scanner(System.in);
+            isScript = false;
+            isOpened = true;
         }
 
     }

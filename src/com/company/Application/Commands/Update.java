@@ -22,14 +22,21 @@ class Update extends AbstractCommand {
 
     @Override
     public boolean argsIsCorrect(String[] args) {
-        if(args.length >= 2)
-            return args[1].matches("\\d+");
-
-        return false;
+        try{
+            Integer.parseInt(args[1]);
+            return true;
+        }
+        catch (NumberFormatException e){
+            return false;
+        }
+//        if(args.length >= 2)
+//            return args[1].matches("\\d+");
+//
+//        return false;
     }
 
     @Override
     public void getInfo() {
-        System.out.println("update key : предлагает изменить данные о продукте с ключем key");
+        System.out.println("update int : предлагает изменить данные о продукте с ключем key");
     }
 }

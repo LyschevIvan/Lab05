@@ -15,16 +15,23 @@ class Insert extends AbstractCommand {
     @Override
     public void execute(String[] args) {
         Product product = controllersProvider.readProduct();
-        Integer key = Integer.valueOf(args[1]);
+        int key = Integer.parseInt(args[1]);
         controllersProvider.getTreeMapController().put(key,product);
 
     }
 
     @Override
     public boolean argsIsCorrect(String[] args) {
-        if(args.length >= 2)
-            return args[1].matches("\\d+");
-        return false;
+        try{
+            Integer.parseInt(args[1]);
+            return true;
+        }
+        catch (NumberFormatException e){
+            return false;
+        }
+//        if(args.length >= 2)
+//            return args[1].matches("\\d+");
+//        return false;
     }
 
     @Override

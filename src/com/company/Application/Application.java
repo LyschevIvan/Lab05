@@ -31,7 +31,8 @@ public class Application {
 
         xmlController.loadTree(fileName, treeMapController);
         while (inputReader.isOpened()){
-            commandInvoker.nextCommand(inputReader);
+
+            inputReader.readCommand(commandInvoker);
 
         }
 

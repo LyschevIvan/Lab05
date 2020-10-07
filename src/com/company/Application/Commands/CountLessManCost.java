@@ -34,13 +34,16 @@ class CountLessManCost extends AbstractCommand {
 
     @Override
     public boolean argsIsCorrect(String[] args) {
-        if(args.length >= 2)
-            return  args[1].matches("(\\d+)");
-        return false;
+        try {
+            Long.parseLong(args[1]);
+            return true;
+        } catch (NumberFormatException e){
+            return false;
+        }
     }
 
     @Override
     public void getInfo() {
-        System.out.println("count_less_than_manufacture_cost long : выводит количество элементов, зачения поля manufectureCost которых меньше заданного");
+        System.out.println("count_less_than_manufacture_cost long : выводит количество элементов, зачения поля manufactureCost которых меньше заданного");
     }
 }
